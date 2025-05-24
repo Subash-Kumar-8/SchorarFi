@@ -101,10 +101,6 @@ export default function InvestorSignUp() {
             <button type="submit">Create Account</button>
           </div>
         </form>
-
-        <p>
-          Already have account? <a href="">Sign-in</a>
-        </p>
       </div>
     </div>
   );
