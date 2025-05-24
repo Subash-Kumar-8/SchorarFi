@@ -28,9 +28,9 @@ const CreateWallet = () => {
         console.log("User is registered?", isRegistered);
 
         if (isRegistered) {
-          navigate("/scholarDashboard");
+          navigate("/investorDashboard");
         } else {
-          navigate("/scholarSignup");
+          navigate("/investorSignup");
         }
       } catch (error) {
         console.error("Wallet connection failed:", error);
@@ -44,8 +44,8 @@ const CreateWallet = () => {
     <div className="page-container">
       <div className="header">
         <h1>Welcome to ScholarFi</h1>
-        <p>Ready to fund other scholars?</p>
-        <a href="./investorJoin">Sign in as Investor</a>
+        <p>Need Funding for your Project?</p>
+        <a href="./scholarJoin">Sign in as Scholar</a>
       </div>
       <div className="wallet-button">
         <button onClick={connectWallet}>Join MetaMask</button>

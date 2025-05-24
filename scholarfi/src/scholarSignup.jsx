@@ -5,9 +5,9 @@ import {
   SIGNUP_CONTRACT_ABI,
 } from "./Contract/contractsignup";
 import { useNavigate } from "react-router-dom";
-import "./Styles/investorSignup.css";
+import "./Styles/scholarSignup.css";
 
-export default function InvestorSignUp() {
+export default function ScholarSignUp() {
   const navigate = useNavigate();
   const address = localStorage.getItem("userAddress");
 
@@ -64,12 +64,12 @@ export default function InvestorSignUp() {
   };
 
   return (
-    <div className="body">
+    <div>
       <div className="signin">
-        <h1>Welcome to Invester sign-in Page</h1>
+        <h1>Welcome to Scholar sign-in Page</h1>
         <div className="text-right">
-          <p>Do You Need Funding For Your Research ?</p>
-          <a href="/scholarJoin">Sign-in as Scholar</a>
+          <p>Ready to fund other scholar?</p>
+          <a href="investorJoin">Sign-in as Investor</a>
         </div>
       </div>
 
