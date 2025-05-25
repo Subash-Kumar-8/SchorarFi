@@ -11,6 +11,10 @@ import Projects from "./scholarProjects.jsx";
 import PitchProjectForm from "./pitchInput.jsx";
 import InvestorFind from "./investorFind.jsx";
 import ScholarMetamask from "./scholarMetamask.jsx";
+import InvestorDashboard from "./investerDasboard.jsx"
+import InvesterProjects from "./inveterprojects.jsx";
+import ScholarFund from "./scholarfund.jsx";
+import InvestorMetamask from "./investorMetamask.jsx";
 
 function App() {
   return (
@@ -26,6 +30,10 @@ function App() {
         <Route path="/pitchproject" element={<PitchProjectForm />} />
         <Route path="/findinvestor" element={<InvestorFind />} />
         <Route path="/scholarmetamask" element={<ScholarMetamask />} />
+        <Route path="/investordashboard" element={<InvestorDashboard />} />
+        <Route path="/investedprojects" element={<InvesterProjects />} />
+        <Route path="/fundscholar" element={<ScholarFund />} />
+        <Route path="/investormetamask" element={<InvestorMetamask />} />
         <Route path="/T&C" element={<TandC />} />
       </Routes>
     </Router>

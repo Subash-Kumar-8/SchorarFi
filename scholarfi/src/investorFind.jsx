@@ -1,13 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./Styles/investerFind.css";
 import { useNavigate } from 'react-router-dom';
-// import requestIcon from './assets/request-icon.png'; 
+import requestIcon from './assets/request-icon.png'; 
 
 const InvestorFind = () => {
   const navigate = useNavigate();
+  const [requestedInvestor, setRequestedInvestor] = useState(null); // state for showing requested investor
 
   const handleRequestClick = (name) => {
     alert(`Requested ${name} to fund.`);
+    setRequestedInvestor(name); // update state
   };
 
   return (
@@ -35,7 +37,7 @@ const InvestorFind = () => {
             <div className="one">
               <p>Subash Kumar</p>
               <img
-                // src={requestIcon}
+                src={requestIcon}
                 alt="Request Icon"
                 id="three"
                 style={{ cursor: 'pointer' }}
@@ -46,7 +48,7 @@ const InvestorFind = () => {
             <div className="two">
               <p>Mohammed Mafaz</p>
               <img
-                // src={requestIcon}
+                src={requestIcon}
                 alt="Request Icon"
                 id="four"
                 style={{ cursor: 'pointer' }}
@@ -57,7 +59,7 @@ const InvestorFind = () => {
             <div className="three">
               <p>Chelian</p>
               <img
-                // src={requestIcon}
+                src={requestIcon}
                 alt="Request Icon"
                 id="five"
                 style={{ cursor: 'pointer' }}
@@ -68,6 +70,11 @@ const InvestorFind = () => {
 
           <div className="projects">
             <h3>Request sent to</h3>
+            {requestedInvestor ? (
+              <p>{requestedInvestor}</p>
+            ) : (
+              <p>No investor requested yet.</p>
+            )}
           </div>
         </div>
       </div>
