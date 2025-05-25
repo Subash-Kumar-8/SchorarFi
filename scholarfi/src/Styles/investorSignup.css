@@ -15,56 +15,61 @@
     rgba(111, 143, 238, 0) 100%
   );
 }
+
 .signin > h1 {
-  margin-top: 50px;
-  margin-left: 30px;
+  margin-top: 3.125rem;
+  margin-left: 1.875rem;
   font-family: sorce sans pro;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 400;
   color: white;
 }
+
 .signin > p {
-  margin-top: 100px;
-  margin-left: 300px;
-  padding-left: 80px;
+  margin-top: 6.25rem;
+  margin-left: 18.75rem;
+  padding-left: 5rem;
   font-family: sorce sans pro;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
   color: white;
 }
+
 .signin > a {
-  margin-top: 100px;
-  margin-left: 0px;
+  margin-top: 6.25rem;
+  margin-left: 0rem;
   color: #0099ff;
   font-family: sorce sans pro;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
 }
+
 .box input {
   display: flex;
-  width: 700px;
-  padding-left: 30px;
-  border: 5px solid black;
+  width: 43.75rem;
+  padding-left: 1.875rem;
+  border: 0.3125rem solid black;
   font-family: sorce sans pro;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
   box-sizing: border-box;
-  margin-bottom: 10px;
-  margin-left: 47px;
-  margin-right: 47px;
+  margin-bottom: 0.625rem;
+  margin-left: 2.9375rem;
+  margin-right: 2.9375rem;
   cursor: pointer;
 }
+
 .box {
   font-family: sorce sans pro;
-  font-size: 24px;
-  font-weight: 300px;
-  margin-top: 70px;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-top: 4.375rem;
   display: inline-block;
-  margin-left: 350px;
-  padding: 5px;
-  padding-top: 50px;
+  margin-left: 21.875rem;
+  padding: 0.3125rem;
+  padding-top: 3.125rem;
   background: #55565c66;
   color: white;
 }
@@ -76,43 +81,44 @@
 }
 
 #two input[type="checkbox"] {
-  width: 24px;
-  height: 24px;
-  padding-left: 20px;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding-left: 1.25rem;
   accent-color: green;
 }
+
 #one {
   color: #5c6ac4;
+  align-content: center;
+  position: relative;
+  height: 4.375rem;
 }
+
 button {
   background-color: yellow;
-  border: 5px solid red;
-  border-radius: 50px;
-  width: 200px;
-  height: 60px;
-  font-size: 16px;
+  border: 0.3125rem solid red;
+  border-radius: 3.125rem;
+  width: 12.5rem;
+  height: 3.75rem;
+  font-size: 1rem;
   font-weight: 400;
   font-family: sorce sans pro;
   cursor: pointer;
-}
-#one {
-  align-content: center;
-  position: relative;
-  height: 70px;
-}
-button {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .box > p {
   align-content: center;
-  padding-left: 120px;
+  padding-left: 7.5rem;
 }
+
 .box > a {
   color: #0099ff;
 }
+
 #two > a {
   color: #0099ff;
 }
