@@ -5,101 +5,99 @@
   background-position: center;
   background-attachment: fixed;
   font-family: sorce sans pro;
-  font-size: 24px;
+  font-size: 1.5rem; /* 24px */
   font-weight: 400;
 }
 .header{
     display: flex;
     background: linear-gradient(to bottom, rgba(111, 143, 238, 0.7944444444444444) 1%,rgba(111, 143, 238, 0.25) 61%,rgba(111, 143, 238, 0) 100%);
-    padding-top: 20px;
+    padding-top: 1.25rem; /* 20px */
     color: white;
 }
 #one{
-    width: 70px;
-    height: 70px;
-    padding-left: 800px;
-    padding-top: 20px;
+    width: 4.375rem; /* 70px */
+    height: 4.375rem;
+    padding-left: 50rem; /* 800px */
+    padding-top: 1.25rem; /* 20px */
 }
 #two{
-    width: 50px;
-    height: 50px;
-    padding-top: 30px;
+    width: 3.125rem; /* 50px */
+    height: 3.125rem;
+    padding-top: 1.875rem; /* 30px */
 }
 .flex{
     display: flex;
 }
 #three{ 
-    padding-left:700px;  
+    padding-left: 43.75rem; /* 700px */  
 }
 .all{
     background-color: black;
     color: white;
-    width: 300px;
-    height: 590px;
+    width: 18.75rem; /* 300px */
+    height: 36.875rem; /* 590px */
 }
 .navbar {
-    width: 300px;
+    width: 18.75rem; /* 300px */
     display: flex;           
     flex-direction: column; 
-    gap: 15px; 
+    gap: 0.9375rem; /* 15px */
 }               
 
 .navelements {
-    padding-left: 90px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border: solid 2px white;
+    padding-left: 5.625rem; /* 90px */
+    padding-top: 1.25rem; /* 20px */
+    padding-bottom: 1.25rem;
+    border: solid 0.125rem white; /* 2px */
 }
 .navelements:hover{
-            margin-left: 10px;
+            margin-left: 0.625rem; /* 10px */
 }
 #active{
     background-color: white;
     color: black;
-    border: solid 2px black;
+    border: solid 0.125rem black; /* 2px */
 }
 .scholars{
-    width: 300px;
-    height:300px;
+    width: 18.75rem; /* 300px */
+    height: 18.75rem;
     background-color: white;
-    padding-left: 10px;
-    margin-left: 100px;
+    padding-left: 0.625rem; /* 10px */
+    margin-left: 6.25rem; /* 100px */
 }
 .one{
-    width: 230px;
-    height: 200px;
+    width: 14.375rem; /* 230px */
+    height: 12.5rem; /* 200px */
     background-color: pink;
-    padding-left: 20px;
-    margin-left: 20px;
+    padding-left: 1.25rem; /* 20px */
+    margin-left: 1.25rem;
 }
 .projects{
-    width: 300px;
-    height: 100px;
+    width: 18.75rem; /* 300px */
+    height: 6.25rem; /* 100px */
     background-color:white;
-    margin-left: 100px;
-    padding-left: 20px;
-    margin-top: 50px;
+    margin-left: 6.25rem; /* 100px */
+    padding-left: 1.25rem;
+    margin-top: 3.125rem; /* 50px */
 }
 .block{
     background: #00000252;
-    margin-left: 50px;
-    padding-right: 50px;
-    height: 590px;
-    width: 1000px;
+    margin-left: 3.125rem; /* 50px */
+    padding-right: 3.125rem;
+    height: 36.875rem; /* 590px */
+    width: 62.5rem; /* 1000px */
 }
 .title {
 	color: #5C6AC4;
-    margin-left: 600px;
+    margin-left: 37.5rem; /* 600px */
 }
 button{
   background-color: yellow;
-  border: solid, 10px, red;
-  border-radius: 50px;
+  border: solid 0.625rem red; /* 10px */
+  border-radius: 3.125rem; /* 50px */
   font-family: sorce sans pro;
-  font-size: 24px;
+  font-size: 1.5rem; /* 24px */
   font-weight: 400;
-  width: 300px;
-  height: 100px;
+  width: 18.75rem; /* 300px */
+  height: 6.25rem; /* 100px */
 }
- 
-  

@@ -5,80 +5,80 @@
   background-position: center;
   background-attachment: fixed;
   font-family: sorce sans pro;
-  font-size: 24px;
+  font-size: 1.5rem; /* 24px */
   font-weight: 400;
 }
 .header{
     display: flex;
     background: linear-gradient(to bottom, rgba(111, 143, 238, 0.7944444444444444) 1%,rgba(111, 143, 238, 0.25) 61%,rgba(111, 143, 238, 0) 100%);
-    padding-top: 20px;
+    padding-top: 1.25rem; /* 20px */
     color: white;
 }
 #one{
-    width: 70px;
-    height: 70px;
-    padding-left: 850px;
-    padding-top: 20px;
+    width: 4.375rem; /* 70px */
+    height: 4.375rem;
+    padding-left: 53.125rem; /* 850px */
+    padding-top: 1.25rem;
 }
 #two{
-    width: 50px;
-    height: 50px;
-    padding-top: 30px;
+    width: 3.125rem; /* 50px */
+    height: 3.125rem;
+    padding-top: 1.875rem; /* 30px */
 }
 .flex{
     display: flex;
 }
 #three{
-  width: 30px;
-    height: 30px; 
-    padding-top: 25px; 
-    padding-left: 5px; 
+  width: 1.875rem; /* 30px */
+  height: 1.875rem;
+  padding-top: 1.5625rem; /* 25px */
+  padding-left: 0.3125rem; /* 5px */
 }
 #four{
-     width: 30px;
-    height: 30px;
-    padding-top: 25px; 
-    padding-left: 5px;
+  width: 1.875rem;
+  height: 1.875rem;
+  padding-top: 1.5625rem;
+  padding-left: 0.3125rem;
 }
 #five{
-     width: 30px;
-    height: 30px;
-    padding-top: 25px; 
-    padding-left: 5px;
+  width: 1.875rem;
+  height: 1.875rem;
+  padding-top: 1.5625rem;
+  padding-left: 0.3125rem;
 }
 .all{
     background-color: black;
     color: white;
-    width: 300px;
-    height: 590px;
+    width: 18.75rem; /* 300px */
+    height: 36.875rem; /* 590px */
 }
 .navbar {
-    width: 300px;
+    width: 18.75rem;
     display: flex;           
     flex-direction: column; 
-    gap: 15px; 
+    gap: 0.9375rem; /* 15px */
 }               
 
 .navelements {
-    padding-left: 90px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border: solid 2px white;
+    padding-left: 5.625rem; /* 90px */
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    border: solid 0.125rem white; /* 2px */
 }
 .navelements:hover{
-            margin-left: 10px;
+    margin-left: 0.625rem; /* 10px */
 }
 #active{
     background-color: white;
     color: black;
-    border: solid 2px black;
+    border: solid 0.125rem black;
 }
 .scholars{
-    width: 400px;
-    height:300px;
+    width: 25rem; /* 400px */
+    height: 18.75rem; /* 300px */
     background-color: white;
-    padding-left: 20px;
-    margin-left: 100px;
+    padding-left: 1.25rem; /* 20px */
+    margin-left: 6.25rem; /* 100px */
 }
 .one{
     display: flex;
@@ -89,22 +89,18 @@
 .three{
     display: flex;
 }
- .projects{
-    width: 400px;
-    height: 500px;
-    background-color:black;
+.projects{
+    width: 25rem; /* 400px */
+    height: 31.25rem; /* 500px */
+    background-color: black;
     color: white;
-    margin-left: 70px;
-    padding-left: 20px;
-} 
-  .block{
-    background: #00000252;
-    margin-left: 50px;
-    padding-right: 50px;
-    display: flex;
-    width: 1000px;
+    margin-left: 4.375rem; /* 70px */
+    padding-left: 1.25rem; /* 20px */
 }
-
-
-
- 
+.block{
+    background: #00000252;
+    margin-left: 3.125rem; /* 50px */
+    padding-right: 3.125rem;
+    display: flex;
+    width: 62.5rem; /* 1000px */
+}
