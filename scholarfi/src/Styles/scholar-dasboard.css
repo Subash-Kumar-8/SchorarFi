@@ -1,5 +1,5 @@
 .body{
-  background-image: url('image\ 2.jpeg');
+  background-image: url('../Backgrounds/scholarbg.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -49,6 +49,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
     border: solid 2px white;
+    cursor: pointer;
 }
 .navelements:hover{
             margin-left: 10px;

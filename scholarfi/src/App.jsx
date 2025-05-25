@@ -1,12 +1,14 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ConnectWallet from "./CreateWallet.jsx";
-import Scholardashboard from "./ScholarDashboard.jsx";
+import Scholardashboard from "./scholarDasboard.jsx";
 import InvestorSignUp from "./investorSignup.jsx";
 import ScholarSignUp from "./scholarSignup.jsx";
 import CreateWallet from "./InvestorWallet.jsx";
 import TandC from "./Terms.jsx";
 import ScholarFi from "./landing.jsx";
+import Projects from "./scholarProjects.jsx";
+import PitchProjectForm from "./pitchInput.jsx";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <Route path="/investorSignup" element={<InvestorSignUp />} />
         <Route path="/scholarSignup" element={<ScholarSignUp />} />
         <Route path="/investorJoin" element={<CreateWallet />} />
+        <Route path="/scholarproject" element={<Projects />} />
+        <Route path="/pitchproject" element={<PitchProjectForm />} />
 
         <Route path="/T&C" element={<TandC />} />
       </Routes>
