@@ -1,23 +1,23 @@
 import React from "react";
-import "./Styles/scholarMetamask.css";
+import "./Styles/investorMetamask.css";
 import { useNavigate } from "react-router-dom";
 
-const InvestorMetaMask = () => {
-  const navigate = useNavigate
+const ScholarMetamask = () => {
+  const navigate = useNavigate();
   return (
     <div className="body">
       <div className="header">
         <img src="scholarfi.svg" id="two" alt="ScholarFi Logo" />
-        <h1>welcome jayabalakumaran,</h1>
+        <h1>welcome subash kumar,</h1>
         <img src="profile-picture.png" id="one" alt="Profile" />
       </div>
       <div className="flex">
         <div className="all">
           <div className="navbar">
-             <div className="navelements" onClick={()=> navigate('/scholarDashboard"')}>Dashboard</div>
-            <div className="navelements" onClick={()=> navigate('/scholarproject')}>Projects</div>
-            <div className="navelements"  onClick={()=> navigate('/findinvestor')}>Find Investor</div>
-            <div className="navelements" id="active" onClick={()=> navigate('/scholarmetamask')}>Metamask</div>
+            <div className="navelements" onClick={()=> navigate('/"')}>Dasboard</div>
+            <div className="navelements" onClick={()=> navigate('/')}>Invested Projects</div>
+            <div className="navelements" onClick={()=> navigate('/')}>Fund Scholars</div>
+            <div className="navelements" id="active" onClick={()=> navigate('/')}>Projects</div>
           </div>
         </div>
         <div className="block">
@@ -30,4 +30,4 @@ const InvestorMetaMask = () => {
   );
 };
 
-export default InvestorMetaMask;
+export default ScholarMetamask;

@@ -9,6 +9,8 @@ import TandC from "./Terms.jsx";
 import ScholarFi from "./landing.jsx";
 import Projects from "./scholarProjects.jsx";
 import PitchProjectForm from "./pitchInput.jsx";
+import InvestorFind from "./investorFind.jsx";
+import ScholarMetamask from "./scholarMetamask.jsx";
 
 function App() {
   return (
@@ -22,7 +24,8 @@ function App() {
         <Route path="/investorJoin" element={<CreateWallet />} />
         <Route path="/scholarproject" element={<Projects />} />
         <Route path="/pitchproject" element={<PitchProjectForm />} />
-
+        <Route path="/findinvestor" element={<InvestorFind />} />
+        <Route path="/scholarmetamask" element={<ScholarMetamask />} />
         <Route path="/T&C" element={<TandC />} />
       </Routes>
     </Router>
