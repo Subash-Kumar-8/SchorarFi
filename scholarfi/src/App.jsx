@@ -18,6 +18,7 @@ function App() {
         <Route path="/investorSignup" element={<InvestorSignUp />} />
         <Route path="/scholarSignup" element={<ScholarSignUp />} />
         <Route path="/investorJoin" element={<CreateWallet />} />
+
         <Route path="/T&C" element={<TandC />} />
       </Routes>
     </Router>
