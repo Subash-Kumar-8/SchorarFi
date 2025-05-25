@@ -1,0 +1,75 @@
+.body{
+  background-image: url('image\ 2.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: sorce sans pro;
+  font-size: 24px;
+  font-weight: 400;
+}
+.header{
+    display: flex;
+    background: linear-gradient(to bottom, rgba(111, 143, 238, 0.7944444444444444) 1%,rgba(111, 143, 238, 0.25) 61%,rgba(111, 143, 238, 0) 100%);
+    padding-top: 20px;
+    color: white;
+}
+#one{
+    width: 70px;
+    height: 70px;
+    padding-left: 800px;
+    padding-top: 20px;
+}
+#two{
+    width: 50px;
+    height: 50px;
+    padding-top: 30px;
+}
+.flex{
+    display: flex;
+}
+.all{
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 590px;
+}
+.navbar {
+    width: 300px;
+    display: flex;           
+    flex-direction: column; 
+    gap: 15px; 
+}               
+
+.navelements {
+    padding-left: 90px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: solid 2px white;
+}
+.navelements:hover{
+            margin-left: 10px;
+}
+#active{
+    background-color: white;
+    color: black;
+    border: solid 2px black;
+}
+.block{
+    display: flex;
+}
+
+.block{
+    background: #00000252;
+    margin-left: 50px;
+    padding-right: 50px;
+    width: 1000px;
+}
+.backend{
+    width: 500px;
+    height: 300px;
+    background-color: grey;
+    margin-top: 150px;
+    margin-left: 300px;
+}
+ 
